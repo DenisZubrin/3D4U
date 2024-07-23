@@ -7,8 +7,8 @@
     />
     <div class="container slide__container">
       <div class="slide__text">
-        <h2 class="slide__heading" name="heading">{{ heading }}</h2>
-        <p class="slide__description" name="description">{{ description }}</p>
+        <h2 class="slide__heading">{{ heading }}</h2>
+        <p class="slide__description">{{ description }}</p>
       </div>
       <ul class="slide__list">
         <li v-for="(link, index) in links" :key="index" class="slide__item">
